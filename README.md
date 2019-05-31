@@ -1,2 +1,4 @@
 # ALC
-Adaptive Loudness Compensation in Music Listening
+Adaptive Loudness Compensation in Music Listening - SMC 2019
+
+The need for loudness compensation is a well known fact arising from the nonlinear behavior of human sound perception. Music and other sounds are mixed and mastered at a certain loudness level, usually louder than the level at which they are commonly played. This implies a change in the perceived spectral balance of the sound, which is largest in the low-frequency range. As the volume setting in music playing is decreased, a loudness compensation filter can be used to boost the bass appropriately, so that the low frequencies are still heard well and the perceived spectral balance is preserved. This repo includes a loudness compensation function derived from the standard equal-loudness-level contours and its implementation via a digital first-order shelving filter. 
