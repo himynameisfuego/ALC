@@ -19,7 +19,7 @@ wc = 2*pi*122.0552; adj = 0.4851;
 AudioFile = sum(audio_signal, 2) / size(audio_signal, 2);
 t = (0:length(AudioFile)-1)./audio_fs;
 
-[filtTrace,~] = fitLoudnessContoursX(ML,LL);
+[filtTrace,~] = traceLoudness(ML,LL);
 G = 10^((filtTrace(1)+adj)/20);
 [num1,den1] = shelf1low(G,wc/Fs);
 
