@@ -1,6 +1,6 @@
 # ALC - Adaptive Loudness Compensation
 
-Hello! This repository contains the MATLAB files relative to the implementation of the method proposed in the paper "Adaptive Loudness Compensation in Music Listening" presented at SMC 2019 (http://smc2019.uma.es/articles/S2/S2_01_SMC2019_paper.pdf). A C++ implementation will be provided in the future.
+Hello! This repository contains the MATLAB files relative to the implementation of the method proposed in the paper "Adaptive Loudness Compensation in Music Listening" presented at SMC 2019 (http://smc2019.uma.es/articles/S2/S2_01_SMC2019_paper.pdf). 
 
 Contacts and info: leonardo.fierro@aalto.fi
 
