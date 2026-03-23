@@ -1,3 +1,12 @@
+Metadata-Version: 2.4
+Name: alc
+Version: 0.2.0
+Summary: Adaptive Loudness Compensation
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: numpy>=1.26
+Requires-Dist: scipy>=1.11
+
 # ALC: Adaptive Loudness Compensation
 
 Python revival of the original MATLAB implementation for the SMC 2019 work on adaptive loudness compensation in music listening.
@@ -106,6 +115,9 @@ Leonardo Fierro, "Adaptive Loudness Compensation in Music Listening", SMC 2019.
 Paper link:
 http://smc2019.uma.es/articles/S2/S2_01_SMC2019_paper.pdf
 
+## Status
+
+This is an active restoration and modernization effort. The MATLAB code is retained as provenance, while the Python code is intended to become the maintainable implementation going forward.
 
 ## Validation Notes
 

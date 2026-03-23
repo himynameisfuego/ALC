@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+src/alc/__init__.py
+src/alc/__main__.py
+src/alc/cli.py
+src/alc/core.py
+src/alc/io.py
+src/alc.egg-info/PKG-INFO
+src/alc.egg-info/SOURCES.txt
+src/alc.egg-info/dependency_links.txt
+src/alc.egg-info/entry_points.txt
+src/alc.egg-info/requires.txt
+src/alc.egg-info/top_level.txt
+tests/test_core.py
